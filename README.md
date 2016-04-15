@@ -15,8 +15,9 @@ To Run
 Problem Summary
 ---------------
 
-Starting with N, start wiwth i = 1, track digits seen in each number i
-* N until all digits 0--9 have been seen.  T is the number of test cases.
+Starting with N, start wiwth i = 1, track digits seen in each
+number i * N until all digits 0--9 have been seen.  T is the number of
+test cases.
 
 T is on the range (1, 100) inclusive.<br />
 N is on the range (0, 200) small data set.<br />
@@ -40,8 +41,8 @@ Bleatrix must start with N and must always name (i + 1) × N directly
 after i × N. For example, suppose that Bleatrix picks N = 1692. She
 would count as follows:
 
-N = 1692. Now she has seen the digits 1, 2, 6, and 9.
-2N = 3384. Now she has seen the digits 1, 2, 3, 4, 6, 8, and 9.
+N = 1692. Now she has seen the digits 1, 2, 6, and 9.<br />
+2N = 3384. Now she has seen the digits 1, 2, 3, 4, 6, 8, and 9.<br />
 3N = 5076. Now she has seen all ten digits, and falls asleep.
 
 What is the last number that she will name before falling asleep? If
@@ -77,20 +78,20 @@ Sample
 
 ### Input 
  
-5
-0
-1
-2
-11
-1692
+    5
+    0
+    1
+    2
+    11
+    1692
 
 ### Output 
 
-Case #1: INSOMNIA
-Case #2: 10
-Case #3: 90
-Case #4: 110
-Case #5: 5076
+    Case #1: INSOMNIA
+    Case #2: 10
+    Case #3: 90
+    Case #4: 110
+    Case #5: 5076
 
 In Case #1, since 2 × 0 = 0, 3 × 0 = 0, and so on, Bleatrix will never
 see any digit other than 0, and so she will count forever and never
